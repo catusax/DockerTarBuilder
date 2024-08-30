@@ -8,10 +8,8 @@
 ## 使用说明
 https://wkdaily.cpolar.cn/archives/gc
 
-```
-unzip xxxx.zip
-tar -xzvf x86-64-images.tar.gz
-cat xxx-amd64.tar | docker load
+```shell
+unzip -p  xxxx.zip |tar -xJOvf - | docker load
 ```
 
 ## 教学视频
